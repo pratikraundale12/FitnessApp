@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="android-large-4">
+      <header class="frame-parent">
+        <div class="time-parent">
+          <div class="time">9:41</div>
+          <div class="create-an-account-wrapper">
+            <h2 class="create-an-account">Create an account</h2>
+          </div>
+        </div>
+        <div class="frame-wrapper">
+          <div class="frame-group">
+            <div class="cellular-connection-wrapper">
+              <img
+                class="cellular-connection-icon"
+                loading="lazy"
+                alt=""
+                src="./public/cellular-connection.svg"
+              />
+            </div>
+            <img
+              class="wifi-icon"
+              loading="lazy"
+              alt=""
+              src="./public/wifi.svg"
+            />
+
+            <div class="battery">
+              <div class="border"></div>
+              <img
+                class="cap-icon"
+                loading="lazy"
+                alt=""
+                src="./public/cap.svg"
+              />
+
+              <div class="capacity"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="email-entry-wrapper">
+        <div class="email-entry">
+          <input class="password-entry" placeholder="First Name" type="text" />
+
+          <input class="password-entry1" placeholder="Last Name " type="text" />
+          <input class="password-entry" placeholder="Email" type="text" />
+
+          <input class="password-entry1" placeholder="Password" type="text" />
+          
+          
+          <div class="instance-parent">
+            <input class="group-input" type="checkbox" />
+
+            <div class="by-proceeding-i-container">
+              <span class="by-proceeding-i"
+                >By proceeding, I agree to all
+              </span>
+              <span class="tc">T&C</span>
+              <span class="span"> </span>
+              <span class="and">and </span>
+              <span class="privacy-policy">Privacy Policy</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="rectangle"></div>
+      <section class="android-large-4-inner">
+        <div class="or-label-parent">
+          <div class="or-label">
+            <div class="or-label-child" id="rectangle"></div>
+            <div class="create-an-account1">Create an Account</div>
+          </div>
+          <div class="frame-container">
+            <div class="reports-wrapper">
+              <div class="reports"></div>
+            </div>
+            <div class="or">Or</div>
+            <div class="line-wrapper">
+              <div class="frame-child"></div>
+            </div>
+          </div>
+          <div class="frame-div">
+            <div class="sign-up-button-parent">
+              <div class="sign-up-button">
+                <div class="sign-up-button-child"></div>
+                <img
+                  class="flat-color-iconsgoogle"
+                  loading="lazy"
+                  alt=""
+                  src="./public/flatcoloriconsgoogle.svg"
+                />
+              </div>
+              <div class="sign-up-button1">
+                <div class="sign-up-button-item"></div>
+                <img
+                  class="vector-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/vector-1.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="forgot-password-link">
+            <div class="already-have-an-container" id="alreadyHaveAn">
+              <span>Already have an account? </span>
+              <span class="login">Login</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./android-large-6.html";
+        });
+      }
+      
+      var alreadyHaveAn = document.getElementById("alreadyHaveAn");
+      if (alreadyHaveAn) {
+        alreadyHaveAn.addEventListener("click", function (e) {
+          window.location.href = "./android-large-5.html";
+        });
+      }
+      </script>
+  </body>
+</html>

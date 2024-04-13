@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./android-large-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="android-large-2">
+      <a href="android-large-1.html">
+        <img
+          class="android-large-2-child"
+          loading="lazy"
+          alt=""
+          src="./public/group-1.svg"
+        />
+      </a>
+      
+
+      <header class="android-large-2-inner">
+        <div class="time-parent2">
+          <div class="time4">9:41</div>
+          <div class="cellular-connection-label-wrapper">
+            <div class="cellular-connection-label">
+              <div class="cellular-connection-wrapper2">
+                <img
+                  class="cellular-connection-icon4"
+                  loading="lazy"
+                  alt=""
+                  src="./public/cellular-connection.svg"
+                />
+              </div>
+              <div class="frame-parent12">
+                <div class="wifi-group">
+                  <img
+                    class="wifi-icon4"
+                    loading="lazy"
+                    alt=""
+                    src="./public/wifi.svg"
+                  />
+
+                  <div class="battery4">
+                    <div class="border4"></div>
+                    <img
+                      class="cap-icon4"
+                      loading="lazy"
+                      alt=""
+                      src="./public/cap.svg"
+                    />
+
+                    <div class="capacity4"></div>
+                  </div>
+                </div>
+                <div class="previous-button">
+                  <div class="skip1" id="skipText">Skip</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="image-16-wrapper">
+        <img
+          class="image-16-icon"
+          loading="lazy"
+          alt=""
+          src="./public/image-16@2x.png"
+        />
+      </section>
+      <div class="rectangle4"></div>
+      <section class="burning-process-label">
+        <div class="keep-burning-label">
+          <div class="get-burn">Get Burn</div>
+          <div class="lets-keep-burning">
+            Let’s keep burning to achieve your goals, it hurts only temporarily,
+            if you give up now you will be in pain forever
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var skipText = document.getElementById("skipText");
+      if (skipText) {
+        skipText.addEventListener("click", function (e) {
+          window.location.href = "./android-large-1.html";
+        });
+      }
+      var click = document.getElementById("android-large-2-child");
+      if (group) {
+        group.addEventListener("click", function (e) {
+          window.location.href = "./android-large-2.html";
+        });
+      }
+      </script>
+  </body>
+</html>
